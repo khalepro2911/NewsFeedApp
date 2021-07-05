@@ -40,7 +40,7 @@ public class WebAdapter extends RecyclerView.Adapter<WebAdapter.ViewHolder>{
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         private TextView btnView;
-        
+
         private ArrayList<Website> websites;
         private Context context;
         public ViewHolder(View itemView, Context context, ArrayList<Website> websites){
